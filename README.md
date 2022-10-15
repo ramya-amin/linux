@@ -6,3 +6,10 @@ find /dir -name *filenam*
 
 ## 2. Locate is faster as it looks for filename in the DB. Its important to do updatedb inorder to lookup the file in latest file structure as new files would have been created after the last auto updatedb by system 
 locate filename
+
+
+# Adding log message to the /var/log/messages file. This would useful while reproducing certain application or product issues 
+
+logger "Start of the issue" 
+
+tail /var/log/messages 
