@@ -1,4 +1,4 @@
-rgb(9, 105, 218) # This is to make note of all the linux commands used on daily basis 
+# This is to make note of all the linux commands used on daily basis 
 
 ## To locate a file
 ### 1. Find command can be used with certain custom rules to locate files based on name, size, modify time , permissoins etc . However this command is I/O intensive/ slow 
