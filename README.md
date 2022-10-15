@@ -1,6 +1,6 @@
 # This is to make note of all the linux commands used on daily basis 
 
-# To locate a file
+# * To locate a file
 ## 1. Find command can be used with certain custom rules to locate files based on name, size, modify time , permissoins etc . However this command is I/O intensive/ slow 
 `find /dir -name *filenam*`
 
@@ -8,7 +8,7 @@
 locate filename
 
 
-# Adding log message to the /var/log/messages file. This would useful while reproducing certain application or product issues 
+# * Adding log message to the /var/log/messages file. This would useful while reproducing certain application or product issues 
 ```
 logger "Start of the issue" 
 
